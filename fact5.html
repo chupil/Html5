@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Питання</title>
+</head>
+
+<body bgcolor="#8BD2FD">
+    <header>
+        <div>
+            <h1>Опитування по Україні</h1>
+        </div>
+        <nav>
+            <a href="index.html">Головна </a>  |
+            <a href="fact1.html">Питання 1</a> |
+            <a href="fact2.html">Питання 2</a> |
+            <a href="fact3.html">Питання 3</a> |
+            <a href="fact4.html">Питання 4</a> |
+            <a href="fact5.html">Питання 5</a> |
+        </nav>
+    </header>
+    <main>
+        <article>
+            <div>
+                <h2>Факт 5</h2>
+            </div>
+             <form action="https://formspree.io/chupil87@gmail.com"
+      method="POST">
+                <p>Станція метро «Арсенальна» у Києві — найглибша у світі.<br> Станцію біля будівлі парламенту побудували в 1960 р., однією з перших.<br> За деякими даними, у тунелях біля «Арсенальної» є таємні схованки для політичної верхівки.</p>
+                <fieldset>
+                    <legend>
+                        <b>Яка глибина станції?</b>
+                    </legend>
+                    <div><img src="img/metro.jpg" width="250" height="240" alt="Метро"></div>
+                    <label for="metro">Гибина</label>
+                    <input type="text" list="metro" name="metro">
+                        <datalist id="metro">
+                                  <option value="50 метрів">
+                                  <option value="180 метрів">
+                                  <option value="105 метрів" selected>
+                        </datalist>
+                    <br>
+                </fieldset>
+                <br>
+                <input type="submit" value="Відповісти" />
+                <button onclick="location.href='data.html'" type="button">Подання звіту Учасника</button>
+            </form>
+        </article>
+        <br>
+        <hr>
+        <footer>
+           <audio controls preload="metadata">
+                        <source src="/mp3/sound.mp3" type="audio/mpeg">
+            </audio> 
+        </footer>
+    </main>
+</body>
+
+</html>

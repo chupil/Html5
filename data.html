@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Особисті дані</title>
+</head>
+<body bgcolor="#8BD2FD">
+    <header>
+        <div>
+            <h1>Особисті дані</h1>
+        </div>
+        <nav>
+            <a href="index.html">Головна </a>  |
+            <a href="fact1.html">Питання 1</a> |
+            <a href="fact2.html">Питання 2</a> |
+            <a href="fact3.html">Питання 3</a> |
+            <a href="fact4.html">Питання 4</a> |
+            <a href="fact5.html">Питання 5</a> |
+            <a href="data.html">Анкета</a>  |
+        </nav>
+    </header>
+    <main>
+        <article>
+            <h2>Останній тест</h2>
+             <form action="https://formspree.io/chupil87@gmail.com"
+      method="POST">
+                <p>Збір Ваших особистих даних потрібний <b><i>лише</i></b> для формування статистики.</p>
+                <fieldset>
+                    <legend>
+                        <b>Особисті дані</b>
+                    </legend>
+                    <label><i><b>Ім'я</b></i>
+                        <input type="text" name="name" required placeholder="Ім'я"/>
+                    </label><br>
+                    <br>
+                    <hr>
+                    <br>
+                    <label><i><b>Прізвище</b></i>
+                        <input type="text" name="lname" required placeholder="Прізвище"/>
+                    </label><br>
+                    <br>
+                    <hr>
+                    <br>
+                    <label><i><b>Телефон</b></i>
+                        <input type="tel" name="tel" pattern="[0-9]{1}-[0-9]{3}-[0-9]{3}" required placeholder="Телефон"/>
+                    </label><br>
+                    <br>
+                    <hr>
+                    <br>
+                    <label><i><b>Електронна Пошта</b></i>
+                        <input type="email" name="email" required placeholder="Електронна Пошта"/>
+                    </label><br>
+                    <br>
+                    <hr>
+                    <br>
+                    <label><i><b>Ваш сайт, якщо такий є</b></i>
+                        <input type="url" name="url" placeholder="www.url.com"/>
+                    </label><br>
+                    <br>
+                    <br>
+                    <hr>
+                    <br>
+                  <label for="smoke">Шкідливі звички</label> 
+                <select name="smoke" id="smoke">
+                <option value="yes">Так</option>
+                <option value="no">Ні</option>
+            </select>
+             <br>
+                    <br>
+                    <hr>
+                    <br>
+                <label for="days">Улюблений день</label>
+                    <br>
+                    <br>    
+            <select name="days" id="days" multiple size="7">
+                <option>Понеділок</option>
+                <option>Вівторок</option>
+                <option>Середа</option>
+                <option>Четвер</option>
+                <option>Пятница</option>
+                <option>Субота</option>
+                <option>Неділя</option>
+            </select>
+            <br>
+             <br>
+                    <hr>
+                    <br>
+            <label for="comment-field">Щи Ви тут взагалі забули?</label><br>
+            <textarea name="comment" id="comment-field" rows="10" cols="150" placeholder="Щи Ви тут взагалі забули?"></textarea>
+                </fieldset>
+                <input type="reset" value="Скинути">
+                <br>
+                <input type="submit" value="Подання звіту Учасника" />
+                <button onclick="location.href='answ.html'" type="button">Відповіді</button>
+            </form>
+        </article>
+        <br>
+        <br>
+        <hr>
+        <footer>
+           <audio controls preload="metadata">
+                        <source src="/mp3/sound.mp3" type="audio/mpeg">
+            </audio>
+        </footer>
+    </main>
+</body>
+
+</html>
